@@ -1,16 +1,16 @@
 import random
 
-answer = random.randint(1, 100)
+answer = random.randint(1, 150)
 
 prediction = int(input())
 
 while prediction != answer:
     if prediction < answer:
-        print("up")
+        print("UP!")
 
     elif prediction > answer:
-        print("down")
+        print("DOWN!")
 
     prediction = int(input())
 
-print("success")
+print("SUCCESS!")
